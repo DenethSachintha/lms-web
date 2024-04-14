@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {RouterOutlet} from "@angular/router";
+import {RouterLink, RouterOutlet} from "@angular/router";
 import {MatButton} from "@angular/material/button";
 
 @Component({
@@ -7,7 +7,8 @@ import {MatButton} from "@angular/material/button";
   standalone: true,
   imports: [
     RouterOutlet,
-    MatButton
+    MatButton,
+    RouterLink
   ],
   templateUrl: './user-context.component.html',
   styleUrl: './user-context.component.scss'
