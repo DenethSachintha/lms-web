@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
+import {ProgramWidgetComponent} from "../widget/program-widget/program-widget.component";
 
 @Component({
   selector: 'app-user-payments',
   standalone: true,
-  imports: [],
+  imports: [
+    ProgramWidgetComponent
+  ],
   templateUrl: './user-payments.component.html',
   styleUrl: './user-payments.component.scss'
 })
